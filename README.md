@@ -33,3 +33,36 @@ Linux Debian-based
 
 ```bash
 chmod +x Lotka_Volterra_Linux
+```
+
+Запуск:
+
+```bash
+./Lotka_Volterra_Linux
+```
+
+### Запуск из исходников
+
+Требуется Python 3.13.
+
+Установка зависимостей:
+
+```bash
+pip install -r requirements.txt
+```
+
+Запуск:
+
+```bash
+python main.py
+```
+
+---
+
+# requirements.txt
+
+Создай:
+
+```bash
+pip freeze > requirements.txt
+```
